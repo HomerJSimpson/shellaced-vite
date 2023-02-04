@@ -1,0 +1,20 @@
+
+main {
+  flex: 1; /* takes the remaining height of the "container" div */
+  overflow: auto; /* to scroll just the "main" div */
+}
+
+section {
+  height: 100%; /* takes the visible area of the "main" div */
+  overflow: auto; /* recommended */
+  border-bottom: 1px solid;
+}
+
+header {
+}
+section:last-child {
+  border: none;
+}
+footer {
+}
+
