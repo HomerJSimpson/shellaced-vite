@@ -1,11 +1,11 @@
-import "./App.css";
+import './App.css';
 
-import Container from "@mui/material/Container";
-import CssBaseline from "@mui/material/CssBaseline";
-import Divider from "@mui/material/Divider";
-import Header from "./Header";
-import Typography from "@mui/material/Typography";
-import { LoremIpsum } from "react-lorem-ipsum";
+import { LoremIpsum } from 'react-lorem-ipsum';
+
+import CssBaseline from '@mui/material/CssBaseline';
+
+import Footer from './Footer';
+import Header from './Header';
 
 // <ul>{Object.keys(window).map((e, i) => <li key={i}>{e} - {typeof window[e]}</li>)}</ul>
 function App() {
@@ -21,12 +21,7 @@ function App() {
         </section>
       </main>
       <footer>
-        <Container maxWidth="lg" disableGutters>
-          <Divider variant="fullWidth" />
-          <Typography component="div" align="center" variant="caption">
-            &copy; 2023. All Rights Reserved
-          </Typography>
-        </Container>
+        <Footer />
       </footer>
     </>
   );
