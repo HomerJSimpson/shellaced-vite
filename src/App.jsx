@@ -1,12 +1,11 @@
 import "./App.css";
 
-import { LoremIpsum } from "react-lorem-ipsum";
-
 import Container from "@mui/material/Container";
 import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
 import Header from "./Header";
 import Typography from "@mui/material/Typography";
+import { LoremIpsum } from "react-lorem-ipsum";
 
 // <ul>{Object.keys(window).map((e, i) => <li key={i}>{e} - {typeof window[e]}</li>)}</ul>
 function App() {
